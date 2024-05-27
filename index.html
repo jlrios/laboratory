@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Web</title>
+</head>
+<body>
+    <button id="obtenerDescripcion">Obtener Descripción de la Computadora</button>
+    <div id="descripcion"></div>
+
+    <script>
+        document.getElementById("obtenerDescripcion").addEventListener("click", function() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://localhost:8888/", true); // Establece la URL del servidor
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var descripcion = xhr.responseText;
+                        document.getElementById("descripcion").innerText = descripcion;
+                    } else {
+                        console.error("Error al obtener la descripción:", xhr.status);
+                    }
+                }
+            };
+            xhr.send();
+        });
+    </script>
+</body>
+</html>
