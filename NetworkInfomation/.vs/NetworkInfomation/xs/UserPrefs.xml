@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{6B05C7C4-C08B-4062-A4C4-E99FEC832BBE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+    <Files>
+      <File FileName="Startup.cs" Line="49" Column="1" />
+      <File FileName="Controllers/NetworkInformationController.cs" Line="16" Column="45" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="23" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetworkInfomation" expanded="True">
+            <Node name="NetworkInfomation" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NetworkInfomation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

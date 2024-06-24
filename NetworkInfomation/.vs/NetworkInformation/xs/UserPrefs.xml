@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6B05C7C4-C08B-4062-A4C4-E99FEC832BBE}|NetworkInfomation">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+    <Files>
+      <File FileName="Startup.cs" Line="37" Column="1" />
+      <File FileName="Controllers/NetworkInformationController.cs" Line="18" Column="48" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetworkInformation" expanded="True">
+            <Node name="NetworkInformation" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.NetworkInformation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
