@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = NetworkInformation
 build_property.ProjectDir = /Users/jlrd/Documents/Code Rider/laboratory/NetworkInfomation/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

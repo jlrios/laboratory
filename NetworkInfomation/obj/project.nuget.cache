@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W1BFoRUBsNOntccDtBOz4d+q7aXQR+Nz282oGoVwL76s/AqjCIUwAGgdCTYevaF6WiiPGZPzY2pEWVTLkufV/g==",
+  "dgSpecHash": "fB/o5pn2Nq51h/BaRtEQSVbpKgY8DVNHWGr5elpCczO18lU3aKEigr5hge6z8x7sn5oaRTjEbawZmg7gwTgQkQ==",
   "success": true,
   "projectFilePath": "/Users/jlrd/Documents/Code Rider/laboratory/NetworkInfomation/NetworkInformation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jlrd/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/jlrd/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/jlrd/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

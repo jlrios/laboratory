@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{6B05C7C4-C08B-4062-A4C4-E99FEC832BBE}|NetworkInfomation">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/NetworkInformationController.cs">
     <Files>
       <File FileName="Startup.cs" Line="37" Column="1" />
-      <File FileName="Controllers/NetworkInformationController.cs" Line="18" Column="48" />
-      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Controllers/NetworkInformationController.cs" Line="20" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="21" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NetworkInformation" expanded="True">
             <Node name="NetworkInformation" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="NetworkInformationController.cs" selected="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
