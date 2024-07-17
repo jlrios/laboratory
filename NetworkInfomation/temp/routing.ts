@@ -1,16 +1,20 @@
-// app-routing.module.ts
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { AuthGuard } from './auth.guard';
-import { AdminComponent } from './admin/admin.component';
 
-const routes: Routes = [
-  { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
-  // Other routes...
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-export class AppRoutingModule {}
+export class AppComponent implements OnInit {
+  data = { "X999": ["X123", "X456", "789"] };
+  entries: [string, string[]][];
+
+  ngOnInit() {
+    this.entries = Object.entries(this.data);
+  }
+}
+<div *ngFor="let entry of entries">
+  <p>Key: {{ entry[0] }}</p>
+  <ul>
+    <li *ngFor="let item of entry[1]">{{ item }}</li>
+  </ul>
+</div>
